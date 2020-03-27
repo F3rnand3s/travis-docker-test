@@ -6,6 +6,7 @@ services:
   - docker
 
 before_install:
+  - npm install
   - docker build -t f3rnand3s/travis-docker-test .
   - docker run -p 3000:3000 -d f3rnand3s/travis-docker-test
   - docker ps -a
