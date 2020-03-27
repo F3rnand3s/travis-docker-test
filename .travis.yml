@@ -6,8 +6,8 @@ services:
   - docker
 
 before_install:
-  - docker build -t https://github.com/F3rnand3s/travis-docker-test .
-  - docker run -p 3000:3000 -d f3rnand3s/dockernodejs-test
+  - docker build -t F3rnand3s/travis-docker-test .
+  - docker run -p 3000:3000 -d F3rnand3s/travis-docker-test
   - docker ps -a
 
 script:
