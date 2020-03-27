@@ -1,4 +1,4 @@
-# travis-docker-test
+# Travis: Docker test
 
 O propósito deste teste é perceber como utilizar docker juntamente com Travis.
 Travis vai ser usado de maneira que: 
